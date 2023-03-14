@@ -1,0 +1,32 @@
+.headerBody {
+  /* width: 95px;
+  height: 22px; */
+  /* font-family: "Montserrat"; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.headerBody a {
+  color: #737373;
+}
+.account {
+  display: flex;
+}
+.accountText {
+  padding-left: 5px;
+}
+.normalHeader {
+  margin-right: auto;
+}
+.headerBody.navbar-collapse.collapse.show {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.headerBody.navbar-collapse.collapse.show .normalHeader {
+  margin-right: 0px;
+}

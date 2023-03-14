@@ -1,0 +1,39 @@
+.playlist-card {
+  width: 100%;
+  height: 100%;
+}
+.playlist-title {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.playlist-img {
+  padding: 10px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.playlist-items {
+  overflow: scroll;
+  overflow-y: hidden;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  margin-top: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}

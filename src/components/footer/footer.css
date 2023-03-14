@@ -1,0 +1,32 @@
+.listFooter {
+  /* font-family: "Montserrat"; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  padding: 20px;
+}
+.listFooter a {
+  padding-bottom: 10px;
+  color: #737373;
+  text-decoration: none;
+  cursor: pointer;
+}
+.listFooter h4 {
+  /* font-weight: bold; */
+  margin-bottom: 20px;
+  color: black;
+}
+.copyrights {
+  background-color: #ededed;
+  color: #646161;
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-main {
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}

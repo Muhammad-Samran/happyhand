@@ -1,0 +1,57 @@
+.television-base {
+  background: url("../../assets/images/tv.png") no-repeat top center;
+  background-size: contain;
+  height: 458px;
+  max-width: 580px;
+  padding-top: 75px;
+  padding-left: 20px;
+  /* margin-left: 30px; */
+}
+.television-base iframe {
+  height: 330px;
+  width: 480px;
+}
+
+@media screen and (max-width: 990px) {
+  .television-base {
+    padding-top: 55px;
+    padding-left: 15px;
+  }
+  .television-base iframe {
+    height: 265px;
+    width: 380px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .television-base {
+    padding-top: 65px;
+    padding-left: 15px;
+  }
+  .television-base iframe {
+    height: 295px;
+    width: 430px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .television-base {
+    padding-top: 70px;
+    padding-left: 20px;
+  }
+  .television-base iframe {
+    height: 315px;
+    width: 455px;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .television-base {
+    background: none;
+    padding: 0px;
+  }
+  .television-base iframe {
+    height: 100%;
+    width: 100%;
+  }
+}

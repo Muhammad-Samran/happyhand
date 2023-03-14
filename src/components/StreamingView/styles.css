@@ -1,0 +1,23 @@
+.streamingBody {
+  background-image: url("../../assets/images/background.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /* background-repeat: no-repeat; */
+  /* background-size: 35% auto; */
+  /* background-color: #a7ffc2; */
+}
+.zoomCard {
+  background-image: url("../../assets/images/zoomBackground.png");
+  /* background-repeat: no-repeat; */
+  /* background-size: contain; */
+  /* background-size: 100%; */
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+@media screen and (max-width: 990px) {
+  .tv-row {
+    display: flex;
+    flex-direction: column;
+  }
+}

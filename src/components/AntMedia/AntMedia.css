@@ -1,0 +1,64 @@
+.television-base {
+  background: url("../../assets/images/BigTv.png") no-repeat top center;
+  background-size: contain;
+  height: 658px;
+  max-width: 780px;
+  width: 100%;
+  padding-top: 98px;
+  padding-left: 25px;
+  /* margin-left: 30px; */
+}
+.television-base iframe {
+  height: 450px;
+  width: 650px;
+}
+
+@media screen and (max-width: 991px) {
+  .television-base {
+    padding-top: 90px;
+    padding-left: 25px;
+  }
+  .television-base iframe {
+    height: 400px;
+    width: 577px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .television-base {
+    padding-top: 65px;
+    padding-left: 15px;
+    height: 450px;
+  }
+  .television-base iframe {
+    height: 300px;
+    width: 430px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .television-base {
+    padding-top: 72px;
+    padding-left: 20px;
+  }
+  .television-base iframe {
+    height: 315px;
+    width: 455px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .television-base {
+    background: none;
+    padding: 0px;
+    height: 350px;
+    /* max-width: 100%;
+    width: 100%; */
+    display: flex;
+    justify-content: center;
+  }
+  .television-base iframe {
+    height: 315px;
+    width: 455px;
+  }
+}
